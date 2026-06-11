@@ -14,7 +14,7 @@ const LeaveHistory = ({leaves , isAdmin , onUpdate}) => {
                     <table className="table-modern">
                         <thead>
                             <tr>
-                                {isAdmin && <th>Emplo</th>}
+                                {isAdmin && <th>Employee</th>}
                                 <th>Type</th>
                                 <th>Dates</th>
                                 <th>Reason</th>
