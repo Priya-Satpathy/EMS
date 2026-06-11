@@ -2,9 +2,7 @@ import React from 'react'
 
 const PrintPaySlips = () => {
   return (
-    <div>
-      PrintPaySlips
-    </div>
+    <div>PrintPaySlips</div>
   )
 }
 

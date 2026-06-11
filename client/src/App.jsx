@@ -10,6 +10,7 @@ import PaySlips from "./pages/PaySlips"
 import Settings from "./pages/Settings"
 import PrintPaySlips from "./pages/PaySlips"
 import LoginForm from "./components/LoginForm"
+import PrintPaySlip from "./pages/PrintPayslip"
 
 const App = () => {
   return (
@@ -31,7 +32,7 @@ const App = () => {
             <Route path="/payslips" element={ <PaySlips/> } />
             <Route path="/settings" element={ <Settings/> } />
         </Route>
-        <Route path="/print/payslips/:id" element={<PrintPaySlips/> } />
+        <Route path="/print/payslips/:id" element={<PrintPaySlip/> } />
         <Route path="*" element={<Navigate to="/dashboard" replace /> } />
     </Routes>
    </>
